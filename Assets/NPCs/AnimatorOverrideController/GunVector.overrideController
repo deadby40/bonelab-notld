@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GunVector
+  m_Controller: {fileID: 9100000, guid: afc3bf6953591de4f8cfd0a80b571c6e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ee20094a67ccc0745b9c14e01b544029, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5ea9047937740f24dad3d1e31fc8b7c4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d4168adc0f839cb43bb650ca2ffdf58c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 174de7b3cdca6ae4e87fee8a3b3116f1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 27b2378058d21534ca4bebc47607212e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 662cc95194fae4f49aa8073d7c346b12, type: 2}

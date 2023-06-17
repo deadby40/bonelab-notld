@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7455af27dfbe0b44ebeeb19406aba624, type: 3}
+  m_Name: M1911 Mag data
+  m_EditorClassIdentifier: 
+  spawnable:
+    crateRef:
+      _barcode:
+        _id: HunterMvPz.M1911BO1.Spawnable.M1911mag
+        generated: 1
+      _version: 0.0.0
+      _palletBarcode:
+        _id: HunterMvPz.M1911BO1
+        generated: 1
+      _editorCrateChanged: 0
+    policyData: {fileID: 11400000, guid: 5d2c57fd96bb21b4d9501a461b518555, type: 2}
+  platform: M1911.mag
+  rounds: 7

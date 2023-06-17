@@ -1,0 +1,745 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1729968633711898928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1729968633711937690}
+  - component: {fileID: 1729968633711806879}
+  m_Layer: 27
+  m_Name: Zone Spawner (Null Rat)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1729968633711937690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711898928}
+  m_LocalRotation: {x: 0, y: -0.8660244, z: 0, w: 0.5000017}
+  m_LocalPosition: {x: 10.46566, y: -4.977006, z: 0.81427}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1729968633711833193}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 180, y: 60.00023, z: 180}
+--- !u!114 &1729968633711806879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711898928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c89609345b0674189861743c60a238, type: 3}
+  m_Name: ZoneSpawner.cs
+  m_EditorClassIdentifier: 
+  inSecondaryZone: 0
+  isEnabled: 0
+  zone: {fileID: 1729968633711808032}
+  triggerOption: 6
+  autoStart: 1
+  isSpawningAllowed: 1
+  spawnable:
+    crateRef:
+      _barcode:
+        _id: c1534c5a-ef15-44c0-88ae-aebc4e756c6c
+        generated: 1
+      _version: 
+      _palletBarcode:
+        _id: null.empty.barcode
+        generated: 1
+      _editorCrateChanged: 0
+    policyData: {fileID: 0}
+  useRandomCrate: 0
+  randomeSpawnables: []
+  amountOfCrates: 0
+  spawnVFX:
+    crateRef:
+      _barcode:
+        _id: null.empty.barcode
+        generated: 1
+      _version: 
+      _palletBarcode:
+        _id: null.empty.barcode
+        generated: 1
+      _editorCrateChanged: 0
+    policyData: {fileID: 0}
+  VFXPosition: {x: 0, y: 0, z: 0}
+  mode: 0
+  max: 1
+  concurrentAlive: 1
+  concurrentTotal: 0
+  isResetOnZoneEnable: 0
+  spawnClip: []
+  frequency: 1
+  spawnVelocity: {x: 0, y: 0, z: 0}
+  spawnAngularVelocity: {x: 0, y: 0, z: 0}
+  minSpawnAngularVelocity: 0
+  maxSpawnAngularVelocity: 0
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  onSpawn:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeathOneShot:
+    m_PersistentCalls:
+      m_Calls: []
+  blockCollisionDelay: 0
+  currEnemyProfile: {fileID: 0}
+  enableAgentLinking: 0
+  customSpawnerName: 0
+  playerObj: {fileID: 0}
+  arenaGameController: {fileID: 0}
+  parentOverride: {fileID: 0}
+--- !u!1 &1729968633711899390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1729968633711834144}
+  - component: {fileID: 1729968633711807263}
+  - component: {fileID: 1729968633711807262}
+  m_Layer: 27
+  m_Name: Zone Spawner (Null Body)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1729968633711834144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711899390}
+  m_LocalRotation: {x: 0.6751517, y: -0.2948337, z: 0.3408462, w: 0.5840096}
+  m_LocalPosition: {x: 4.18, y: -5.38, z: 0.46}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1729968633711833193}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 98.28005, y: 53.57329, z: -0.000001810141}
+--- !u!114 &1729968633711807263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711899390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c89609345b0674189861743c60a238, type: 3}
+  m_Name: ZoneSpawner.cs
+  m_EditorClassIdentifier: 
+  inSecondaryZone: 0
+  isEnabled: 0
+  zone: {fileID: 1729968633711808032}
+  triggerOption: 6
+  autoStart: 1
+  isSpawningAllowed: 1
+  spawnable:
+    crateRef:
+      _barcode:
+        _id: c1534c5a-d82d-4f65-89fd-a4954e756c6c
+        generated: 1
+      _version: 
+      _palletBarcode:
+        _id: null.empty.barcode
+        generated: 1
+      _editorCrateChanged: 0
+    policyData: {fileID: 0}
+  useRandomCrate: 0
+  randomeSpawnables: []
+  amountOfCrates: 0
+  spawnVFX:
+    crateRef:
+      _barcode:
+        _id: null.empty.barcode
+        generated: 1
+      _version: 
+      _palletBarcode:
+        _id: null.empty.barcode
+        generated: 1
+      _editorCrateChanged: 0
+    policyData: {fileID: 0}
+  VFXPosition: {x: 0, y: 0, z: 0}
+  mode: 0
+  max: 0
+  concurrentAlive: 1
+  concurrentTotal: 0
+  isResetOnZoneEnable: 0
+  spawnClip: []
+  frequency: 1
+  spawnVelocity: {x: 0, y: 0, z: 1}
+  spawnAngularVelocity: {x: 0, y: 0, z: 0}
+  minSpawnAngularVelocity: 0
+  maxSpawnAngularVelocity: 0
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  onSpawn:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeathOneShot:
+    m_PersistentCalls:
+      m_Calls: []
+  blockCollisionDelay: 0
+  currEnemyProfile: {fileID: 0}
+  enableAgentLinking: 0
+  customSpawnerName: 0
+  playerObj: {fileID: 0}
+  arenaGameController: {fileID: 0}
+  parentOverride: {fileID: 0}
+--- !u!114 &1729968633711807262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711899390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d001efba2c0167b4bbe10508a5b43b2f, type: 3}
+  m_Name: ZoneAISettings.cs
+  m_EditorClassIdentifier: 
+  inSecondaryZone: 0
+  isEnabled: 0
+  zone: {fileID: 1729968633711808032}
+  triggerOption: 2
+  zoneSpawner: {fileID: 1729968633711807263}
+  homeTransform: {fileID: 0}
+  homeIsPost: 0
+  isAutoInvestigate: 0
+  isAutoAggro: 0
+  isSoundAggroWhenInSecondaryZone: 0
+  investigateTimeout: 10
+  overrideRoam: 0
+  roamXz: {x: 0, y: 0}
+  roamSpeed: 0.8
+  roamWanders: 0
+--- !u!1 &1729968633711900362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1729968633711937581}
+  - component: {fileID: 1729968633711806881}
+  - component: {fileID: 1729968633711806886}
+  m_Layer: 27
+  m_Name: Zone Spawner (Null Body)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1729968633711937581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711900362}
+  m_LocalRotation: {x: -0.2908949, y: -0.3442138, z: 0.5762076, w: 0.6818225}
+  m_LocalPosition: {x: -8.43, y: -5.57, z: 5.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1729968633711833193}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -53.18661, y: 7.709692, z: -84.26621}
+--- !u!114 &1729968633711806881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711900362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c89609345b0674189861743c60a238, type: 3}
+  m_Name: ZoneSpawner.cs
+  m_EditorClassIdentifier: 
+  inSecondaryZone: 0
+  isEnabled: 0
+  zone: {fileID: 1729968633711808032}
+  triggerOption: 6
+  autoStart: 1
+  isSpawningAllowed: 1
+  spawnable:
+    crateRef:
+      _barcode:
+        _id: c1534c5a-d82d-4f65-89fd-a4954e756c6c
+        generated: 1
+      _version: 
+      _palletBarcode:
+        _id: null.empty.barcode
+        generated: 1
+      _editorCrateChanged: 0
+    policyData: {fileID: 0}
+  useRandomCrate: 0
+  randomeSpawnables: []
+  amountOfCrates: 0
+  spawnVFX:
+    crateRef:
+      _barcode:
+        _id: null.empty.barcode
+        generated: 1
+      _version: 
+      _palletBarcode:
+        _id: null.empty.barcode
+        generated: 1
+      _editorCrateChanged: 0
+    policyData: {fileID: 0}
+  VFXPosition: {x: 0, y: 0, z: 0}
+  mode: 0
+  max: 0
+  concurrentAlive: 1
+  concurrentTotal: 0
+  isResetOnZoneEnable: 0
+  spawnClip: []
+  frequency: 1
+  spawnVelocity: {x: 0, y: 0, z: 0}
+  spawnAngularVelocity: {x: 0, y: 0, z: 0}
+  minSpawnAngularVelocity: 0
+  maxSpawnAngularVelocity: 0
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  onSpawn:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeathOneShot:
+    m_PersistentCalls:
+      m_Calls: []
+  blockCollisionDelay: 0
+  currEnemyProfile: {fileID: 0}
+  enableAgentLinking: 0
+  customSpawnerName: 0
+  playerObj: {fileID: 0}
+  arenaGameController: {fileID: 0}
+  parentOverride: {fileID: 0}
+--- !u!114 &1729968633711806886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711900362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d001efba2c0167b4bbe10508a5b43b2f, type: 3}
+  m_Name: ZoneAISettings.cs
+  m_EditorClassIdentifier: 
+  inSecondaryZone: 0
+  isEnabled: 0
+  zone: {fileID: 1729968633711808032}
+  triggerOption: 2
+  zoneSpawner: {fileID: 1729968633711806881}
+  homeTransform: {fileID: 0}
+  homeIsPost: 0
+  isAutoInvestigate: 0
+  isAutoAggro: 0
+  isSoundAggroWhenInSecondaryZone: 0
+  investigateTimeout: 10
+  overrideRoam: 0
+  roamXz: {x: 0, y: 0}
+  roamSpeed: 0.8
+  roamWanders: 0
+--- !u!1 &1729968633711901096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1729968633711833869}
+  - component: {fileID: 1729968633711703510}
+  m_Layer: 27
+  m_Name: Zone Spawner (Null Rat)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1729968633711833869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711901096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.94, y: -4.977006, z: -5.28}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1729968633711833193}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1729968633711703510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711901096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c89609345b0674189861743c60a238, type: 3}
+  m_Name: ZoneSpawner.cs
+  m_EditorClassIdentifier: 
+  inSecondaryZone: 0
+  isEnabled: 0
+  zone: {fileID: 1729968633711808032}
+  triggerOption: 6
+  autoStart: 1
+  isSpawningAllowed: 1
+  spawnable:
+    crateRef:
+      _barcode:
+        _id: c1534c5a-ef15-44c0-88ae-aebc4e756c6c
+        generated: 1
+      _version: 
+      _palletBarcode:
+        _id: null.empty.barcode
+        generated: 1
+      _editorCrateChanged: 0
+    policyData: {fileID: 0}
+  useRandomCrate: 0
+  randomeSpawnables: []
+  amountOfCrates: 0
+  spawnVFX:
+    crateRef:
+      _barcode:
+        _id: null.empty.barcode
+        generated: 1
+      _version: 
+      _palletBarcode:
+        _id: null.empty.barcode
+        generated: 1
+      _editorCrateChanged: 0
+    policyData: {fileID: 0}
+  VFXPosition: {x: 0, y: 0, z: 0}
+  mode: 0
+  max: 1
+  concurrentAlive: 1
+  concurrentTotal: 0
+  isResetOnZoneEnable: 0
+  spawnClip: []
+  frequency: 1
+  spawnVelocity: {x: 0, y: 0, z: 0}
+  spawnAngularVelocity: {x: 0, y: 0, z: 0}
+  minSpawnAngularVelocity: 0
+  maxSpawnAngularVelocity: 0
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  onSpawn:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeathOneShot:
+    m_PersistentCalls:
+      m_Calls: []
+  blockCollisionDelay: 0
+  currEnemyProfile: {fileID: 0}
+  enableAgentLinking: 0
+  customSpawnerName: 0
+  playerObj: {fileID: 0}
+  arenaGameController: {fileID: 0}
+  parentOverride: {fileID: 0}
+--- !u!1 &1729968633711901725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1729968633711834695}
+  - component: {fileID: 1729968633711807018}
+  m_Layer: 27
+  m_Name: Zone-Amb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1729968633711834695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711901725}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1729968633711833193}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1729968633711807018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711901725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46e280dbdb927f94e9396d720866d365, type: 3}
+  m_Name: ZoneSound.cs
+  m_EditorClassIdentifier: 
+  inSecondaryZone: 0
+  isEnabled: 0
+  zone: {fileID: 0}
+  triggerOption: 2
+  onlyPlayOnce: 0
+  isMusic: 0
+  clipIntro: {fileID: 0}
+  clipMain: {fileID: 8300000, guid: ff10d89be6173104088bcb3ffbd2995e, type: 3}
+  volume: 0.1
+  loop: 1
+  fadeInTime: 3
+  fadeOutTime: 3
+  playOnEnter: 1
+  stopOnEnter: 0
+  stopOnExit: 0
+--- !u!1 &1729968633711902157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1729968633711834935}
+  m_Layer: 27
+  m_Name: Light Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1729968633711834935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711902157}
+  m_LocalRotation: {x: 0.2443861, y: -0.3453055, z: 0.1731411, w: 0.8894166}
+  m_LocalPosition: {x: -2.004337, y: 11.65299, z: 7.894268}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1729968633711833193}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 26.14299, y: 44.3362, z: -11.22343}
+--- !u!1 &1729968633711902180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1729968633711834958}
+  - component: {fileID: 1729968633711807419}
+  m_Layer: 27
+  m_Name: Zone-Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1729968633711834958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711902180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1729968633711833193}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1729968633711807419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711902180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46e280dbdb927f94e9396d720866d365, type: 3}
+  m_Name: ZoneSound.cs
+  m_EditorClassIdentifier: 
+  inSecondaryZone: 0
+  isEnabled: 0
+  zone: {fileID: 0}
+  triggerOption: 2
+  onlyPlayOnce: 1
+  isMusic: 1
+  clipIntro: {fileID: 0}
+  clipMain: {fileID: 8300000, guid: ebdbe31c2865c3b4c93987ac6ed701d5, type: 3}
+  volume: 0.12
+  loop: 0
+  fadeInTime: 3
+  fadeOutTime: 3
+  playOnEnter: 1
+  stopOnEnter: 0
+  stopOnExit: 0
+--- !u!1 &1729968633711902212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1729968633711833193}
+  - component: {fileID: 1729968633711802551}
+  - component: {fileID: 1729968633711808032}
+  m_Layer: 27
+  m_Name: Scene Zone A1
+  m_TagString: Zone/Scene
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1729968633711833193
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711902212}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -48, y: 4, z: -29.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1729968633711833869}
+  - {fileID: 1729968633711937690}
+  - {fileID: 1729968633711834935}
+  - {fileID: 1729968633711834958}
+  - {fileID: 1729968633711834695}
+  - {fileID: 1729968633711834144}
+  - {fileID: 1729968633711937581}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1729968633711802551
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711902212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 26, y: 12, z: 17}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1729968633711808032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729968633711902212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 804b49fa31180c84a91556c9503f6fd7, type: 3}
+  m_Name: SceneZone.cs
+  m_EditorClassIdentifier: 
+  boxCollider: {fileID: 1729968633711802551}
+  linkedZones: []
+  zoneItems:
+  - {fileID: 1729968633711806879}
+  - {fileID: 1729968633711703510}
+  - {fileID: 1729968633711807419}
+  - {fileID: 1729968633711807018}
+  - {fileID: 1729968633711807263}
+  - {fileID: 1729968633711807262}
+  - {fileID: 1729968633711806886}
+  - {fileID: 1729968633711806881}
+  onZoneEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onZoneDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  onPrimaryZoneEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  onPrimaryZoneExited:
+    m_PersistentCalls:
+      m_Calls: []
+  onSecondaryZoneEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  onSecondaryZoneExited:
+    m_PersistentCalls:
+      m_Calls: []
+  onPrimaryZoneEnteredOneTime:
+    m_PersistentCalls:
+      m_Calls: []
+  onSecondaryZoneEnteredOneTime:
+    m_PersistentCalls:
+      m_Calls: []
+  npcDataList: []
+  titleChar: 

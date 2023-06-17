@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GunGruber
+  m_Controller: {fileID: 9100000, guid: afc3bf6953591de4f8cfd0a80b571c6e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ee20094a67ccc0745b9c14e01b544029, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 71f6833c7b231ba47bd83fdd2454e46e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d4168adc0f839cb43bb650ca2ffdf58c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 17fd0f8bc3b13774bbd96aa5e61fa619, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 27b2378058d21534ca4bebc47607212e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a58f8520f75be394b894c43dda0e22b5, type: 2}
