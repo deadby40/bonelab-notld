@@ -1,5 +1,4 @@
 # bonelab notld
- Night Of The Boning Dead (this title could use some work)
 
 To use this repo, just follow the instructions here
 https://github.com/notnotnotswipez/Marrow-ExtendedSDK-PATCH-2
